@@ -1,0 +1,27 @@
+{
+  "name": "personal-website-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorAtanasov/Personal-Website-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorAtanasov/Personal-Website-Template/issues"
+  },
+  "homepage": "https://github.com/VictorAtanasov/Personal-Website-Template#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-serve": "^1.4.0"
+  }
+}
