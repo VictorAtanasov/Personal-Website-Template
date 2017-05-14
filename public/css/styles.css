@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ecf3f3;
+  padding: 44px;
+  background-image: url("../css/Images/bg-grid.png");
+  background-repeat: repeat-y;
+  background-position: center; }
+
+body:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: white solid 24px; }
+
+.section-1 {
+  max-width: 960px;
+  margin: 0 auto; }
+  .section-1 .photo {
+    padding-top: 75%;
+    background-image: url("../css/Images/hipster.jpg");
+    background-position: center;
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
+  .section-1 .section-wrapper {
+    max-width: 700px;
+    margin-left: 170px;
+    margin-top: 50px; }
+  .section-1 .section-number {
+    color: #f6f9f9;
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: 140px;
+    font-size: 212px;
+    font-weight: 600; }
+  .section-1 .section-title {
+    width: 900px; }
+    .section-1 .section-title p {
+      position: absolute;
+      top: -55px;
+      font-size: 100px;
+      right: 190px;
+      color: #20feb1;
+      font-family: 'Gloria Hallelujah', cursive;
+      opacity: 0.8; }
