@@ -18,6 +18,7 @@ body:before{
     right: 0;
     bottom: 0;
     border: white solid 24px;
+    z-index: 99
 }
 
 .section-1{
@@ -28,31 +29,90 @@ body:before{
             background-image: url('../css/Images/hipster.jpg');
             background-position: center;
             box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
+            filter: grayscale(100%);
+            opacity: 0.7;
         }
+
         .section-wrapper{
             max-width: 700px;
             margin-left: 170px;
             margin-top: 50px;
         }
+
         .section-number{
-            color: #f6f9f9;
-            position: absolute;
-            z-index: -1;
             top: -5px;
             left: 140px;
-            font-size: 212px;
-            font-weight: 600;
         }
+
         .section-title{
             width: 900px;
-                p{
-                    position: absolute;
+                p{ 
                     top: -55px;
-                    font-size: 100px;
                     right: 190px;
-                    color: #20feb1;
-                    font-family: 'Gloria Hallelujah', cursive;
-                    opacity: 0.8;
+                }
+        }
+
+        .section-description{
+            width: 290px;
+            margin-left: -139px;
+            margin-top: -280px;
+            position: relative;
+            margin-bottom: 50px;
+            line-height: 48px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #000;
+            border: 5px solid #000;
+            padding: 14px;
+            margin-left: 20px;
+            margin-top: -15px;
+            position: absolute;
+        }
+
+        .fa-arrow-down{
+           font-size: 23px;
+        }
+}
+
+.section-number{
+    color: #f6f9f9;
+    position: absolute;
+    z-index: -1;
+    font-size: 212px;
+    font-weight: 600;
+}
+
+.section-title{
+    p{
+        position: absolute;
+        font-size: 100px;
+        color: #20feb1;
+        font-family: 'Gloria Hallelujah', cursive;
+        opacity: 0.8;
+    }
+}
+
+.section-2{
+    margin-top: 200px;
+
+        .section-wrapper{
+            max-width: 620px;
+            margin-left: 190px;
+            height: 431px;
+            background-color: #fff;
+        }
+
+        .section-number{
+            right: 246px;
+            margin-top: -95px;
+        }
+
+        .section-title{
+            width: 900px;
+                p{ 
+                    margin-top: -100px;
                 }
         }
 }
