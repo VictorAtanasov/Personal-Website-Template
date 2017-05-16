@@ -6,6 +6,9 @@ body {
   background-repeat: repeat-y;
   background-position: center; }
 
+a {
+  text-decoration: none; }
+
 body:before {
   content: '';
   display: block;
@@ -25,7 +28,7 @@ body:before {
     background-image: url("../css/Images/hipster.jpg");
     background-position: center;
     box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
-    filter: grayscale(100%);
+    filter: grayscale(70%);
     opacity: 0.7; }
   .section-1 .section-wrapper {
     max-width: 700px;
@@ -71,13 +74,51 @@ body:before {
   font-family: 'Gloria Hallelujah', cursive;
   opacity: 0.8; }
 
+.youtubeVideo {
+  background-image: url("../css/Images/youtube.png");
+  display: block;
+  position: absolute;
+  background-position: center;
+  height: 271px;
+  width: 485px;
+  box-shadow: 0px 57px 34px -40px rgba(0, 0, 0, 0.3), 0px 3px 40px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 68px;
+  left: 204px; }
+
+.cta {
+  padding: 14px;
+  border: solid #000 5px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  white-space: nowrap;
+  color: #000;
+  text-decoration: none;
+  position: absolute;
+  padding-right: 66px; }
+  .cta .black-box {
+    background-color: #000;
+    width: 54px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .cta .fa {
+    color: #fff; }
+
 .section-2 {
   margin-top: 200px; }
   .section-2 .section-wrapper {
     max-width: 620px;
     margin-left: 190px;
     height: 431px;
-    background-color: #fff; }
+    background-color: #fff;
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
   .section-2 .section-number {
     right: 246px;
     margin-top: -95px; }
@@ -85,3 +126,73 @@ body:before {
     width: 900px; }
     .section-2 .section-title p {
       margin-top: -100px; }
+  .section-2 .section-description {
+    position: absolute;
+    width: 320px;
+    right: 250px;
+    margin-top: 23px;
+    line-height: 48px; }
+  .section-2 .cta {
+    margin-top: 373px;
+    right: 312px; }
+
+.section-3 {
+  margin-top: 150px; }
+  .section-3 .section-wrapper {
+    max-width: 620px;
+    margin-left: 280px;
+    height: 431px;
+    background-color: #fff;
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
+  .section-3 .section-number {
+    left: 140px;
+    margin-top: -104px; }
+  .section-3 .cta {
+    margin-top: -58px;
+    right: 312px; }
+  .section-3 .section-title {
+    width: 900px;
+    display: flex;
+    justify-content: center; }
+    .section-3 .section-title p {
+      margin-top: -100px; }
+  .section-3 .section-description {
+    width: 290px;
+    margin-left: -139px;
+    line-height: 48px;
+    margin-top: 130px;
+    position: absolute; }
+  .section-3 .portfolio {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    .section-3 .portfolio img {
+      width: 100%;
+      display: flex;
+      opacity: 0.8; }
+
+.section-4 {
+  margin-top: 200px; }
+  .section-4 .section-wrapper {
+    max-width: 620px;
+    margin-left: 190px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1); }
+  .section-4 .section-number {
+    right: 246px;
+    margin-top: -95px; }
+  .section-4 .section-title {
+    width: 900px; }
+    .section-4 .section-title p {
+      margin-top: -100px; }
+  .section-4 .social {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    .section-4 .social i {
+      font-size: 40px; }
+    .section-4 .social i:hover {
+      color: #20feb1;
+      font-size: 55px; }
