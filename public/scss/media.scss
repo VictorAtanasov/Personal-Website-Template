@@ -1,0 +1,138 @@
+@media (max-width: 950px) {
+    .section-wrapper {
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .section-1 {
+        .section-number {
+            top: -25px;
+            left: 18px;
+        }
+        .section-title p {
+            font-size: 50px;
+            top: -30px;
+            left: 52px;
+        }
+
+        .section-description{
+            margin-left: 0;
+            margin-top: -100px;
+        }
+    }
+
+    .section-2{
+        .section-number{
+            margin-top: -137px;
+            left: 18px;
+        }
+
+        .section-title p{
+            margin-top: -135px;
+        }
+
+        .section-wrapper{
+            margin-left: 0;
+        }
+
+        .section-description{
+            right: initial;
+        }
+        
+        .cta{
+            margin-top: 102px;
+            right: 30px;
+        }
+
+    }
+
+    .youtubeVideo{
+        position: inherit;
+        width: 100%;
+    }
+
+    .section-3{
+        margin-top: 200px;
+            .section-wrapper{
+                margin-left: 0;
+            }
+
+            .section-title p{
+                left: 30px;
+            }
+
+            .cta{
+                right: 30px;
+            }
+
+            .section-description{
+                margin-left: initial;
+                margin-top: 320px;
+            }
+    }
+
+    .section-4{
+        .section-wrapper{
+            margin-left: initial;
+        }
+        .section-number{
+            right: initial;
+            left: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 710px){
+    .section-2{
+        .cta{
+            margin-top: 218px;
+            right: initial;
+        }
+    }
+
+    .section-3{
+        margin-top: 250px;
+        .cta{
+            margin-top: 150px;
+            right: initial;
+        }
+    }
+
+    .section-4{
+        margin-top: 300px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .section-1{
+        .photo{
+            height: 80px;
+            width: 100%;
+        }
+
+        .section-description{
+            margin-top: -50px;
+        }
+    }
+
+    .youtubeVideo{
+        display: none;
+    }
+
+    .section-2{
+        .section-wrapper{
+            height: 320px;
+        }
+    }
+
+    .section-3 .section-title p{
+        font-size: 50px;
+        margin-top: -15px;
+    }
+
+    .section-4{
+        margin-bottom: 150px;
+    }
+}
